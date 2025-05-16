@@ -45,7 +45,7 @@ server.tool(
 		message,
 	}: AutoTransferParams) => {
 		try {
-			const amtBigInt = BigInt(transferAmount);
+			const amtBigInt = BigInt(transferAmount * 1_000_000);
 
 			const wh = await wormhole("Testnet", [evm, solana]);
 
