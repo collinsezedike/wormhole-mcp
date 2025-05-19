@@ -1,6 +1,6 @@
 # Wormhole MCP – Multichain Token Transfer MCP via Wormhole SDK
 
-Wormhole MCP is a TypeScript/Node.js Model Context Protocol (MCP) server that enables AI agents or user-facing applications to seamlessly bridge and transfer tokens across multiple blockchains using the [Wormhole SDK](https://wormhole.com/). It provides utilities for managing cross-chain transfers, wallet operations, and environment-based configuration for secure key management.
+Wormhole MCP is a TypeScript/Node.js Model Context Protocol (MCP) server that enables automatic bridge and transfer of tokens across multiple blockchains using the [Wormhole SDK](https://wormhole.com/). It provides utilities for managing cross-chain transfers, wallet operations, and environment-based configuration for secure key management.
 
 This MCP abstracts the complexity of cross-chain interactions by providing a structured, context-aware layer for initiating and managing token transfers. It is designed for easy integration with LLM agents, bots, or applications that require secure and reliable access to decentralized cross-chain liquidity.
 
